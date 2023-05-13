@@ -188,11 +188,7 @@ img {
 .hero {
   background-color: var(--main-color);
   padding: 188px 0;
-  background-image: linear-gradient(
-      rgba(46, 47, 66, 0.7),
-      rgba(46, 47, 66, 0.7)
-    ),
-    url("../images/bg-hero.svg");
+  background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/background.svg);
   background-size: cover;
   max-width: 1440px;
   background-repeat: no-repeat;
@@ -253,8 +249,8 @@ img {
 }
 
 .information-icon {
-  width: 64px;
-  height: 64px;
+  /* width: 64px;
+  height: 64px; */
 }
 
 .description-list {
@@ -368,8 +364,8 @@ img {
 
 .worker-list-icon {
   fill: #f4f4fd;
-  width: 16px;
-  height: 16px;
+  /* width: 16px;
+  height: 16px; */
 }
 
 /* -------ІКОНКИ КОМПАНІЙ------- */
