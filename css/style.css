@@ -364,8 +364,6 @@ img {
 
 .worker-list-icon {
   fill: #f4f4fd;
-  /* width: 16px;
-  height: 16px; */
 }
 
 /* -------ІКОНКИ КОМПАНІЙ------- */
@@ -392,18 +390,17 @@ img {
 }
 
 .icon-image {
-  /* width: 104px;
-  height: 56px; */
   fill: currentColor;
 }
 
 .icon-link:hover .icon-image,
 .icon-link:focus .icon-image {
-  fill: var(--hover-color);
+  color: #404bbf;
 }
 
 .icon-link:hover,
 .icon-link:focus {
+  color: #404bbf;
   border: 1px solid var(--hover-color);
 }
 
